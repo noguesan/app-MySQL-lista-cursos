@@ -1,0 +1,30 @@
+Se presenta una aplicacion de consola con Menu donde se conecta python con MySQL utilizandose una tabla de la base de datos y se 
+le dan las siguientes funciones a la consola implementables a la base de datos:
+1- Listar cursos:   lista los datos de la tabla 
+2- Registrar curso  agrega un dato a la tabla
+3- Modificar curso  modifica un dato de la tabla
+4- Eliminar curso   elimina un dato de la tabla
+
+Por cuestiones de simpleza y organizacion se crearon 3 archivos con distintos tipos de informacion para la aplicacion
+	principal1: Es el "Motor" debe correrse este codigo para que comience la aplicacion, contine la coneccion a 
+los otros archivos y el menu
+	funciones1: contine las funciones de la aplicacion
+	conexion1: contiene la clase DAO (Data Access Object) la cual tiene las conexiones y ordenes para MySQL, este archivo
+esta en la carpeta BD (DataBase), porque "da las ordenes" de MySQL con la base de datos.  
+
+*Se utiliza el 1 por referencia a la version de la aplicacion, es su primera version simple y sin modifcaciones
+
+Datos de la conexion:
+                host = 'localhost',
+                user = 'trabajo1',
+                password = 'LO QUE CORRESPONDA',
+                database = 'Universidad1'
+tabla utilizada: cursos1
+Columnas tabla: Codigo, Curso, Creditos
+
+fuente:
+Se utilizo un tutorial
+pagina youtube
+link: https://www.youtube.com/watch?v=d3mYv1r4DkQ&list=LL&index=3
+titulo: CRUD Completo con Python & MySQL en Aplicación de Consola con Menú de Opciones ✅
+Canal: UskoKruM2010
